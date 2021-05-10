@@ -22,10 +22,16 @@ We can do this:
 sort -u myfile.txt | sponge myfile.txt
 ```
 
-Download and install urldedupe from Ameen Maali's github page:
+Download and install urldedupe from **Ameen Maali**'s github:
 
 ```
 https://github.com/ameenmaali/urldedupe
+```
+
+Don't forget to copy the tool in ```/usr/local/bin```:
+
+```
+sudo cp urldedupe /usr/local/bin
 ```
 
 Download and install sponge from **Joey Hess** website:
@@ -58,13 +64,13 @@ Now you can run **KooXSS** from any directory.
 
 **USAGE**
 
-You only need to put urls in a file and use that file as an argument in kooxss:
+You only need to put URLs in a file and use that file as an argument in kooxss:
 
 ```
 $ kooxss urls.txt
 ```
 
-KooXSS will get rid of URLs which don't have any parameter. It also make the list of URLs unique to avoid testing a URL twice.
+KooXSS will get rid of URLs which don't have any parameter. It also makes the list of URLs unique to avoid testing a URL twice.
 URLs should start with ```http``` or ```https```.
 
 Hope it helps you find some XSS;)
