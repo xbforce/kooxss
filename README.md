@@ -28,10 +28,10 @@ Download and install urldedupe from **Ameen Maali**'s github:
 https://github.com/ameenmaali/urldedupe
 ```
 
-Don't forget to copy the tool in ```/usr/local/bin```:
+Don't forget to copy the tool in ```/usr/local/bin/```:
 
 ```
-sudo cp urldedupe /usr/local/bin
+sudo cp urldedupe /usr/local/bin/urldedupe
 ```
 
 Download and install sponge from **Joey Hess** website:
