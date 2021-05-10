@@ -70,7 +70,17 @@ You only need to put URLs in a file and use that file as an argument in kooxss:
 $ kooxss urls.txt
 ```
 
-KooXSS will get rid of URLs which don't have any parameter. It also makes the list of URLs unique to avoid testing a URL twice.
+KooXSS will get rid of URLs which don't have any parameter. 
+
+It also makes the list of URLs unique to avoid testing a URL twice.
+
 URLs should start with ```http``` or ```https```.
 
-Hope it helps you find some XSS;)
+If something went wrong during the test or you canceled the test, you can delete files which ends with ```.del```.
+
+```
+rm *.del
+```
+</br>
+
+*Hope it helps you find some XSS;)*
