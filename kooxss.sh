@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 #Author: Bardiya Xhorshidi; The tool is under MIT License;
-# koo means where; kooXSS means where is XSS!
+# koo means where is; kooXSS means where is XSS! Pronounce it like ```Koo XSS``` or ```Kooks ss```.
 
 exit_code=$!
 urls=$1
