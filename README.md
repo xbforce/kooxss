@@ -3,7 +3,7 @@ KooXSS checks responses for some special characters like ```< " ' >``` to see if
 
 Koo means where is; KooXSS means where is XSS! Pronounce it like: ```Koo XSS``` or ```kooks ss```.
 
-**Requirements**
+**Requirements:**
 
 To run this tool you need to install ```urldedupe``` and ```sponge``` first.
 
@@ -62,7 +62,7 @@ Now you can run **KooXSS** from any directory.
 
 </br>
 
-**USAGE**
+**USAGE:**
 
 You only need to put URLs in a file and use that file as an argument in kooxss:
 
@@ -76,11 +76,17 @@ It also makes the list of URLs unique to avoid testing a URL twice.
 
 URLs should start with ```http``` or ```https```.
 
+When the test is over, browse suspicious URLs and find the word ```kzw``` in the response.
+
+We use ```kzw``` in the payload to find the payload in the source code easly.
+
 If something went wrong during the test or you canceled the test, you can delete files which ends with ```.del```.
 
 ```
 rm *.del
 ```
+
+
 </br>
 
-*Hope it helps you find some XSS;)*
+*Hope it helps you to find some XSS;)*
