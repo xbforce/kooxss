@@ -1,7 +1,7 @@
 # KooXSS
 KooXSS checks responses for some special characters like ```< " ' >``` to see if they are not sanitized. It simply speeds up the process of finding XSS, so after recognizing suspicious URLs and parameters you can do more test to check if you can get any XSS.
 
-Koo means where; KooXSS means where is XSS! Pronounce it like: ```Koo XSS``` or ```kooks ss```.
+Koo means where is; KooXSS means where is XSS! Pronounce it like: ```Koo XSS``` or ```kooks ss```.
 
 **Requirements**
 
