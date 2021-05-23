@@ -9,7 +9,7 @@ urls=$1
 if [[ -z $1 ]]; then
     printf "[*] KooXSS finds possible XSS vulnerabilities!\n"
     printf "[*] twitter.com/xbforce | github.com/xbforce\n"
-    printf "[*] To run this tool you need to install urldedupe and sponge first."
+    printf "[*] To run this tool you need to install urldedupe and sponge first.\n"
     printf "[*] Usage: $0 urls.txt\n"
     exit 0
 fi
